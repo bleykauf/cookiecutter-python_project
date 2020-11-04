@@ -3,3 +3,9 @@ repos:
     rev: 20.8b1
     hooks:
       - id: black
+        exclude: |
+          (?x)^(
+              versioneer.py|
+              docs/conf.py|
+              {{cookiecutter.project_slug}}/_version.py
+          )$
