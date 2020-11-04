@@ -3,5 +3,7 @@ tox
 black
 flake8
 flake8-docstrings
+pylint
+rope
 pre-commit
 sphinx
