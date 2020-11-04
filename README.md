@@ -25,8 +25,7 @@ Development requirements are proviced as `requirements.txt` for pip and `environ
 
 Initialize git repo and install pre-commit hooks:
 
- `
- git init
- pre-commit install
- `
-
+```
+git init
+pre-commit install
+```
