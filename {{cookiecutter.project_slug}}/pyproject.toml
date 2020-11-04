@@ -41,6 +41,7 @@ exclude = '''
     | dist
   )/
   | versioneer.py
-  | {{cookiecutter.project_slug}}/_version.py          
+  | {{cookiecutter.project_slug}}/_version.py
+  | docs/config.py
 )
 '''
