@@ -29,3 +29,5 @@ Initialize git repo and install pre-commit hooks:
 git init
 pre-commit install
 ```
+
+* Remember to put the PyPi token in Settings -> Secrets of the repo. Change the scope after the first publication.
